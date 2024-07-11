@@ -17,13 +17,12 @@
 }
 
 #rodape {
-    background-color: darkblue;
+    background-color: brown;
 }
 
 #logo {background-image: url(../img/logo.png);
     background-repeat: no-repeat;
-    background-position: 50px 70px;
-    background-attachment: fixed;
+    background-position: 50px 30px;
     width: 200px;
     height: 200px;
 }
