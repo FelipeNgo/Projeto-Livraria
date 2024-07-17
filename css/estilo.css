@@ -5,7 +5,8 @@
     background-color: darkcyan;
 }
 .destaques, .produtos, .sobre, .contato {
-    background-color: darkolivegreen;
+    background: rgb(185,255,0);
+background: linear-gradient(90deg, rgba(185,255,0,1) 0%, rgba(0,167,112,1) 40%, rgba(7,30,100,1) 71%, rgba(0,10,12,1) 100%);
 }
 #rodape {
     background-color: gold;
