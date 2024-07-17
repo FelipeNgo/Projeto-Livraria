@@ -1,28 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 #topo {
-    background-color: rgb(100,100,200);
+    background-color: cornflowerblue;
 }
-
 #menu {
-    background-color: blueviolet;
+    background-color: darkcyan;
 }
-
-.destaques {
-    background-color: chocolate;
+.destaques, .produtos, .sobre, .contato {
+    background-color: darkolivegreen;
 }
-
 #rodape {
-    background-color: brown;
-}
-
-#logo {background-image: url(../img/logo.png);
-    background-repeat: no-repeat;
-    background-position: 50px 30px;
-    width: 200px;
-    height: 200px;
+    background-color: gold;
 }
