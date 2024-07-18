@@ -1,6 +1,8 @@
 #topo {
     background: rgb(185,255,0);
     background: linear-gradient(90deg, rgba(185,255,0,1) 0%, rgba(0,167,112,1) 40%, rgba(7,30,100,1) 71%, rgba(0,10,12,1) 100%);
+    text-align: center;
+    color: red;
     }
 #menu {
     background: rgb(185,255,0);
@@ -14,3 +16,33 @@ background: linear-gradient(90deg, rgba(185,255,0,1) 0%, rgba(0,167,112,1) 40%, 
     background: rgb(185,255,0);
 background: linear-gradient(90deg, rgba(185,255,0,1) 0%, rgba(0,167,112,1) 40%, rgba(7,30,100,1) 71%, rgba(0,10,12,1) 100%);
 }
+#rodape p {
+    font-weight: 900;
+    font-size: 130%;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    
+}
+a:visited {
+    color: antiquewhite;
+}
+a:hover {
+    background-color: black;
+    color: yellow;
+    font-size: 30px;
+    margin: 5px;
+    border: solid 2px white;
+}
+#topo:hover {
+    
+}
+
+/***********************PROPRIEDADES DE FONTES**************************/
+/* font-family- Altera a fonte
+font-style- altera o estilo da fonte 
+font-variant- variacoes da fonte
+*/
