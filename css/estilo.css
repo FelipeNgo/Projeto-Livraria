@@ -2,47 +2,59 @@
     margin: 0%;
     padding: 0%;
 }
+body {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);;
+}
 #topo {
-    background: rgb(185,255,0);
-    background: linear-gradient(90deg, rgba(185,255,0,1) 0%, rgba(0,167,112,1) 40%, rgba(7,30,100,1) 71%, rgba(0,10,12,1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
     text-align: center;
-    color: red;
-    margin-top: solid linear-gradient(90deg, rgba(185,255,0,1) 0%, rgba(0,167,112,1) 40%, rgba(7,30,100,1) 71%, rgba(0,10,12,1) 100%);  
-    padding:;
+    color: rgb(0, 0, 0);
+    margin: solid linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);  
+    padding: 20px; 
+    
 
     }
 #menu {
-    background: rgb(185,255,0);
-background: linear-gradient(90deg, rgba(185,255,0,1) 0%, rgba(0,167,112,1) 40%, rgba(7,30,100,1) 71%, rgba(0,10,12,1) 100%);
-
+    background: rgb(0, 0, 0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
+    padding: 10px;
 }
 .destaques, .produtos, .sobre, .contato {
-    background: rgb(185,255,0);
-background: linear-gradient(90deg, rgba(185,255,0,1) 0%, rgba(0,167,112,1) 40%, rgba(7,30,100,1) 71%, rgba(0,10,12,1) 100%);
+    background: rgb(0, 0, 0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
 }
 #rodape {
-    background: rgb(185,255,0);
-background: linear-gradient(90deg, rgba(185,255,0,1) 0%, rgba(0,167,112,1) 40%, rgba(7,30,100,1) 71%, rgba(0,10,12,1) 100%);
+    background: rgb(0, 0, 0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
+    margin: solid 10px linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
 }
-#rodape p {
+footer {
     font-weight: 900;
     font-size: 130%;
     color: white;
     text-align: center;
     text-decoration: underline;
 }
-a {
+#menu li a {
+    font-size: 15px;
+    padding: 1px;
+    border: 5px double black;
+}
+nav a {
     text-decoration: none;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
 }
 nav a:link {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 nav a:visited {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 nav a:hover {
-    background-color: red;
+    background-color: rgb(91, 91, 91);
+    color: white;
     
 }
 nav {
@@ -51,12 +63,35 @@ nav {
 nav {
     text-align: center;
 }
-nav a{
-    color: coral;
+
+
+header h2,h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
+.destaques {
+    text-align: center;
+    
+}
 
+.destaques h2 {
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
 
+.rodape li a {
+    text-align: center;
+}
+footer p {
+    
+}
 /***********************PROPRIEDADES DE FONTES**************************/
 /* font-family- Altera a fonte
 font-style- altera o estilo da fonte 
