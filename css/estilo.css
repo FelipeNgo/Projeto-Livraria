@@ -20,7 +20,7 @@ body {
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
     padding: 10px;
 }
-.destaques, .produtos, .sobre, .contato {
+.destaques, .produtos, .sobre, .contato, .rodape {
     background: rgb(0, 0, 0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
 }
@@ -55,7 +55,6 @@ nav a:visited {
 nav a:hover {
     background-color: rgb(91, 91, 91);
     color: white;
-    
 }
 nav {
     list-style-type: none;
@@ -75,7 +74,7 @@ header h2,h1 {
 
 .destaques {
     text-align: center;
-    
+    margin: 20px;
 }
 
 .destaques h2 {
@@ -86,11 +85,74 @@ header h2,h1 {
     -webkit-text-stroke-color: white;
 }
 
-.rodape li a {
+.rodape a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 1px;
+    border: 5px double black;
+    text-decoration: none;
+    color: black;
+}
+
+.rodape li a:hover {
+    background-color: rgb(91, 91, 91);
+    color: rgb(255, 255, 255);
+}
+
+.rodape {
     text-align: center;
 }
+
+.rodape a:visited {
+    background-color: white;
+}
+
+.rodape a:link {
+    background-color: white;
+}
+
+.rodape li {
+    margin: 5px;
+}
+
+.sobre {
+    text-align: center;
+    color: coral;
+}
+
+#rodape a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 1px;
+    border: 5px double black;
+    text-decoration: none;
+    color: black;
+}
+
+#rodape li a:hover {
+    background-color: rgb(91, 91, 91);
+    color: rgb(255, 255, 255);
+}
+
+#rodape {
+    text-align: center;
+}
+
+#rodape a:visited {
+    background-color: white;
+}
+
+#rodape a:link {
+    background-color: white;
+}
+
+#rodape li {
+    margin: 5px;
+}
+
 footer p {
-    
+    text-decoration: underline;
+    text-align: center;
 }
 /***********************PROPRIEDADES DE FONTES**************************/
 /* font-family- Altera a fonte
