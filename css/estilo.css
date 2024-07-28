@@ -20,7 +20,7 @@ body {
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
     padding: 10px;
 }
-.destaques, .produtos, .sobre, .contato, .rodape {
+.destaques, .sobre, .rodape {
     background: rgb(0, 0, 0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
 }
@@ -136,6 +136,7 @@ header h2,h1 {
 
 #rodape {
     text-align: center;
+    
 }
 
 #rodape a:visited {
@@ -153,6 +154,24 @@ header h2,h1 {
 footer p {
     text-decoration: underline;
     text-align: center;
+}
+
+.produtos {
+    margin-left: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rodape {
+    padding: 1px;
+    text-decoration: none;
+
+}
+
+.contato {
+    margin-left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /***********************PROPRIEDADES DE FONTES**************************/
 /* font-family- Altera a fonte
