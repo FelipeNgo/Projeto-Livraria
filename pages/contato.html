@@ -7,7 +7,7 @@
     <title>Livraria São João</title>
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
-<body>
+<body id="baixo">
     <header id="topo">
         <h1>LIVRARIA SÃO JOÃO</h1>
         <h2>LIVROS NOVOS E USADOS COM OS MELHORES PREÇOS</h2>
@@ -31,51 +31,64 @@
 
     <main class="contato">
        <form action="#">
-        <fieldset>
-            <legend>Contate-nos</legend>
+        
+            <legend>CONTATE-NOS</legend>
+            <br>
                 <div>
-                 <label for="name">Nome</label>
+                 <label for="name">NOME</label>
                  <input type="text" name="nome" id="name" placeholder=" Digite seu nome completo">
         </div>
             <br>
                 <div>
-                 <label for="email">Email</label>
+                 <label for="email">EMAIL</label>
                  <input type="email" name="email" id="email" placeholder="Digite seu email">
         </div>
             <br>
                 <div>
-                 <label for="telefone">Telefone</label>
+                 <label for="telefone">TELEFONE</label>
                  <input type="text" name="telefone" id="telefone" pattern="[0-9]{11}" placeholder="Digite seu numero">
         </div>
             <br>
-            <label for="select">Assunto</label>
+            <label for="select">ASSUNTO</label>
             <select name="assunto" id="assunto">
-                <option value="1">Trocas</option>
-                <option value="2">Atendimento</option>
-                <option value="3">Comercio</option>
-                <option value="4">Outros</option>
+                <option value="1">TROCAS</option>
+                <option value="2">ATENDIMENTO</option>
+                <option value="3">COMERCIO</option>
+                <option value="4">OUTROS</option>
             </select>
             <br>
-            <label for="mens">Deixe seu comentario</label>
-            <textarea name="mens" id="mens" cols="30" rows="10">
+            <br>
+            <label for="mens">DEIXE SEU COMENTARIO</label>
+            <br>
+            <textarea name="mens" id="mens" cols="50" rows="15">
             </textarea>
             <br>
-                <div>
-                 <button type="submit">Enviar</button>
-                 <button type="reset">Apagar</button>
+            <br>
+                <div id="enviar">
+                 <button type="submit">ENVIAR</button>
+                 <button type="reset">APAGAR</button>
                 </div>
-        </fieldset>
+        
        </form>
     </main>
-
+<br>
+<br>
+<br>
     <footer id="rodape">
         <ul>
             <li><a href="../index.html">INÍCIO</a></li>
+            <br>
             <li><a href="produtos.html">LIVROS</a></li>
+            <br>
             <li><a href="#">PROMOÇÕES</a></li>
+            <br>
             <li><a href="sobre.html">JOHN & PAUL</a></li>
+            <br>
             <li><a href="contato.html">CONTATOS</a></li>
+            <br>
         </ul>
+        <br>
+        
         <p>2024. Livraria São João &copy; Todos os direitos reservados</p>
     </footer>
 </body>

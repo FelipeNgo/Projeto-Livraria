@@ -12,18 +12,13 @@ body {
     color: rgb(0, 0, 0);
     margin: solid linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);  
     padding: 20px; 
-    
-
-    }
+}
 #menu {
     background: rgb(0, 0, 0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
     padding: 10px;
 }
-.destaques, .sobre, .rodape {
-    background: rgb(0, 0, 0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
-}
+
 #rodape {
     background: rgb(0, 0, 0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
@@ -172,6 +167,21 @@ footer p {
 .contato {
     margin-left: 650px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.contato form {
+    margin-left: 200px;
+}
+
+#enviar {
+    margin-left: 50px;
+}
+
+#baixo #rodape a {
+    font-weight: normal;
+    font-size: 15px;
+    padding: 1px;
+    border: 5px double black;
 }
 /***********************PROPRIEDADES DE FONTES**************************/
 /* font-family- Altera a fonte
