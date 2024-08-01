@@ -37,8 +37,7 @@ nav ul,.rodape ul {
     list-style-type: none;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 108px;
-    width: 1400px;
+    margin-left: 5%;
 }
 nav a,.rodape a {
     color: black;
@@ -58,7 +57,7 @@ main h2 {
     border: 3px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     width: 400px;
-    margin-left: 37%;
+    margin-left: 36%;
 }
 
 main ul {
@@ -72,10 +71,11 @@ main ul {
 
 main a {
     justify-content: space-around;
-    width: 500px;
+    width: 700px;
     display: flex;
-    margin: 35px 5px;
+    margin-top: 100px;
 }
+
 
 span {
     text-decoration: overline 3px ;
