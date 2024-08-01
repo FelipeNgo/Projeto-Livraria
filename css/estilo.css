@@ -196,7 +196,7 @@ footer p {
     display: flex;
     justify-content: center; 
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
     height: 50px;
 }
 
