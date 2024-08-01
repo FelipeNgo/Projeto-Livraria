@@ -2,204 +2,116 @@
     margin: 0%;
     padding: 0%;
 }
+
+hr {
+    border-color: black;
+    box-sizing: border-box;
+    width: 100%;
+}
 body {
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);;
-}
-#topo {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin: solid linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);  
-    padding: 20px; 
-}
-#menu {
-    background-color: white;
-    height: 30px;
-    padding: 10px;
+    background: rgb(93,230,255);
+    background: linear-gradient(90deg, rgba(93,230,255,1) 0%, rgba(24,156,255,1) 35%, rgba(37,66,192,1) 71%, rgba(13,0,133,1) 100%);
 }
 
-#rodape {
-    background: rgb(0, 0, 0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
-    margin: solid 10px linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,113,131,1) 40%, rgba(27,192,219,1) 71%, rgba(252,252,252,1) 100%);
-}
-footer {
-    font-weight: 900;
-    font-size: 130%;
-    color: white;
+header {
+    padding: 2%;
     text-align: center;
-    text-decoration: underline;
-}
-#menu ul li {
-    margin: 5px;
-    width: 100px;
-    background-color: rgb(91, 91, 91);
-    list-style: none;
-    float: left;
-    font-size: 15px;
-    padding: 1px;
-    border: 5px double black;
-    main {
-        clear: both;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
     }
-}
-nav a {
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(0, 0, 0);
-}
-nav a:link {
-    background-color: rgb(91, 91, 91);
-}
-nav a:visited {
-    background-color: rgb(91, 91, 91);
-}
-nav a:hover {
-    background-color: rgb(91, 91, 91);
-    color: white;
-}
-nav {
-    list-style-type: none;
-}
-nav {
-    text-align: center;
-}
-
 
 header h2,h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 1px;
-    font-size: 40px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    padding: 5px;
+}
+nav,.rodape {
+    background: rgb(93,230,255);
+    background: linear-gradient(90deg, rgba(93,230,255,1) 0%, rgba(24,156,255,1) 35%, rgba(37,66,192,1) 71%, rgba(13,0,133,1) 100%);
+    margin-top: 3%;
 }
 
-.destaques {
-    text-align: center;
-    margin: 20px;
-}
-
-.destaques h2 {
-    margin: 50px;
+nav ul,.rodape ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    padding-left: 108px;
+    width: 1400px;
 }
-
-.rodape a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding: 1px;
-    border: 5px double black;
-    text-decoration: none;
+nav a,.rodape a {
     color: black;
-}
-
-.rodape li a:hover {
-    background-color: rgb(91, 91, 91);
-    color: rgb(255, 255, 255);
-}
-
-.rodape {
-    text-align: center;
-}
-
-.rodape a:visited {
-    background-color: white;
-}
-
-.rodape a:link {
-    background-color: white;
-}
-
-.rodape li {
-    margin: 5px;
-}
-
-.sobre {
-    text-align: center;
-    color: coral;
-}
-
-#rodape a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding: 1px;
-    border: 5px double black;
     text-decoration: none;
-    color: black;
+    border: 5px solid black;
+    background-color: white;
 }
 
-#rodape li a:hover {
-    background-color: rgb(91, 91, 91);
-    color: rgb(255, 255, 255);
-}
-
-#rodape {
+main {
+    color: rgb(0, 0, 0);
     text-align: center;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#rodape a:visited {
-    background-color: white;
+main h2 {
+    font-size: 40px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin-left: 37%;
 }
 
-#rodape a:link {
-    background-color: white;
+main ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+    flex-direction: row;
 }
 
-#rodape li {
-    margin: 5px;
+main a {
+    justify-content: space-around;
+    width: 500px;
+    display: flex;
+    margin: 35px 5px;
 }
 
-footer p {
+span {
+    text-decoration: overline 3px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+footer {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     text-decoration: underline;
-    text-align: center;
 }
 
 .produtos {
-    margin-left: 650px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#rodape {
-    padding: 1px;
-    text-decoration: none;
-
-}
-
-.contato {
-    margin-left: 650px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.contato form {
-    margin-left: 200px;
-}
-
-#enviar {
-    margin-left: 50px;
-}
-
-#baixo #rodape a {
-    font-weight: normal;
-    font-size: 15px;
-    padding: 1px;
-    border: 5px double black;
-}
-
-#menu ul {
     display: flex;
-    justify-content: center; 
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
+    justify-content: center;
+
 }
 
+table {
+    margin: 3%;
+    padding: 33px;
+    border: 3px solid black;
+    width: 100%;
+}
+
+nav a:hover,.rodape a:hover {
+    background-color: grey;
+    color: white;
+    font-size: 30px;
+}
+
+nav a:focus,.rodape a:focus {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0)
+}
 /***********************PROPRIEDADES DE FONTES**************************/
 /* font-family- Altera a fonte
 font-style- altera o estilo da fonte 
