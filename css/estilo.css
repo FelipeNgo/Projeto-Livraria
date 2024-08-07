@@ -124,8 +124,11 @@ nav a:focus,.rodape a:focus {
     background-color: rgb(255, 0, 0);
     color: rgb(255, 0, 0)
 }
+
+
 /***********************PROPRIEDADES DE FONTES**************************/
 /* font-family- Altera a fonte
 font-style- altera o estilo da fonte 
 font-variant- variacoes da fonte
+cada comando poderá ser destinado a sua tag filho
 */
